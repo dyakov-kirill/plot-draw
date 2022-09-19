@@ -39,7 +39,7 @@ double get_expression_value(t_token **expr, int tokens_num) {
     double r = stack->data;
     free(stack->next);
     free(stack);
-    return -r;
+    return r;
 }
 
 void make_operation(t_token *expr, t_stack_d **stack) {
