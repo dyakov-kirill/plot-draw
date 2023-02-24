@@ -1,10 +1,10 @@
-# Plot draw on C
+# plot-draw
 
-This program is written in C language and draws reversed plot of entered expression.
+Программа написана на языке Си и рисует график введенной функции.
 
-The graph is drawn on the definition area [0;4PI] and on the range [-1;1].
+Область определения рисуемой функции [0;4PI], а область значений [-1;1].
 
-Program works only with the integer numbers and supports following functions:
+Программа работает только с целыми числами и поддерживает следующие функции:
 
 > +-/*^
 
@@ -28,10 +28,10 @@ Example:
 
 ![giphy gif](https://github.com/dyakov-kirill/plot-draw/blob/c8140fd04c31bf39d3bebda7f259e47ed7a5e850/res/Presentation.png)
 
-Compilation
+Компиляция
 
 > make
 
-Run
+Запуск
 
 > ./plot
